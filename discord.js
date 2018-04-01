@@ -79,7 +79,7 @@ if (msg.content.startsWith(`-memes`)) {
 })
 
 client.on('ready', () => {
-  client.user.setGame('help pentru comenzi', 'https://www.twitch.tv/streamerhouse', '/help pentru comenzi')
+  client.user.setGame('/help pentru comenzi', 'https://www.twitch.tv/streamerhouse', '/help pentru comenzi')
 })
 
 client.on('message', message => {
